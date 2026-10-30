@@ -1,15 +1,930 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Osob Files — Personal Archive</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Special+Elite&display=swap');
-:root{--paper:#d9826d;--ink:#342a26;--border:#695247;--cream:#f2e4c8;--shadow:#65463733}*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif}button{font:inherit}.archive{min-height:100vh;position:relative;isolation:isolate;background:radial-gradient(ellipse at 20% 15%,#ffffff38,transparent 60%),radial-gradient(ellipse at 90% 85%,#40271624,transparent 55%),var(--paper)}.archive:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;opacity:.15;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");mix-blend-mode:multiply}.mast{background:repeating-linear-gradient(90deg,#6c514b18 0 1px,transparent 1px 28px),linear-gradient(#efe5d2,#d9c7aa);border-bottom:4px double #695247;padding:16px clamp(18px,3vw,52px);display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font:clamp(29px,4vw,54px)/1 'IM Fell English',Georgia,serif;text-shadow:2px 2px #fff8e655}.sub,.serial,.micro,.tabs button,.mini-button,.label{font-family:'Special Elite','Courier New',monospace}.sub{font-size:11px;margin-top:6px}.serial{font-size:11px;text-align:right;line-height:1.7}.tabs-shell{background:#d9c7aa;padding:12px clamp(14px,3vw,52px) 0}.tabs{display:flex;align-items:flex-end;gap:3px;max-width:1500px;margin:auto}.tabs button{min-width:0;flex:1;cursor:pointer;border:1px solid #4b362c77;border-bottom:0;border-radius:0;background:linear-gradient(115deg,#fff8e32b,transparent 40%,#49302120),var(--c);color:#342821;font-size:clamp(8px,1vw,12px);padding:15px 3px 12px;min-height:44px;box-shadow:inset 2px 2px #fff7e644;transition:padding .15s,filter .15s}.tabs button:hover{filter:brightness(1.08)}.tabs button[aria-selected=true]{padding-top:24px;padding-bottom:16px;background:var(--paper);position:relative;z-index:2;font-weight:bold;border-bottom:0;box-shadow:inset 2px 2px #fff7e655}.sheet{min-height:calc(100vh - 160px);padding:20px clamp(14px,4vw,70px) 30px;position:relative}.sheet:before{content:"";position:absolute;left:clamp(5px,2vw,27px);top:0;bottom:0;width:11px;background:linear-gradient(90deg,#38261b20,#fff7e12a,#38261b14);border-right:1px solid #62463655}.paper-inner{max-width:1500px;margin:0 auto}.paper-top{display:flex;justify-content:space-between;gap:10px;border-bottom:3px double #594338a8;padding:5px 0 13px;margin-bottom:15px;font-size:11px}.layout{display:grid;grid-template-columns:minmax(145px,220px) minmax(0,1fr) minmax(170px,255px);gap:14px;align-items:start}.panel{border:3px double var(--border);background:linear-gradient(140deg,#fff9e947,#fff6dd24 60%,#39231b12);padding:9px;box-shadow:2px 3px 0 var(--shadow);margin-bottom:13px}.panel-title{font-family:'IM Fell English',Georgia,serif;text-align:center;font-size:21px;line-height:1.1;margin:0 0 10px;border-bottom:1px dashed var(--border);padding:3px 0 8px}.panel-title:before,.panel-title:after{content:'✣';font-size:12px;margin:0 7px}.menu{display:grid;gap:2px}.mini-button{background:linear-gradient(#fff9e66e,#6b4e3b15);border:1px solid var(--border);box-shadow:inset 1px 1px #fff8eb8a;padding:9px 5px;text-align:center;font-size:12px;color:var(--ink);text-decoration:none}.mini-button:hover{background:#fff5da88}.tiny{font-size:13px;line-height:1.5}.micro{font-size:10px;letter-spacing:.03em}.center{min-width:0}.hero{border:4px double var(--border);padding:clamp(16px,3vw,35px);background:linear-gradient(120deg,#fff9e951,#fff4dd16 65%,#3d281015);box-shadow:3px 4px 0 var(--shadow);margin-bottom:14px}.kicker{font:italic 19px 'IM Fell English',Georgia,serif}.hero h1{font:normal clamp(36px,5vw,72px)/1 'IM Fell English',Georgia,serif;margin:12px 0 15px;text-shadow:1px 1px #fff6df77}.hero p{font-size:clamp(15px,1.6vw,19px);line-height:1.55;max-width:760px}.section-rule{border:0;border-top:3px double var(--border);margin:17px 0}.content-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.content-grid .panel{margin-bottom:0;min-height:180px}.entry-heading{font:normal 24px 'IM Fell English',Georgia,serif;margin:7px 0}.label{font-size:10px;text-transform:uppercase}.sticker{display:inline-block;border:2px dashed #6b5044;padding:7px 11px;transform:rotate(-3deg);font:12px 'Special Elite','Courier New',monospace;margin:6px 0 15px}.note-lines{background:repeating-linear-gradient(transparent 0 25px,#5e473324 26px 27px);line-height:27px;padding:1px 4px;min-height:85px}.right .panel{padding:12px}.guest-entry{border-bottom:1px dashed #745b4b;padding:8px 0;font-size:12px}.guest-entry:last-child{border-bottom:0}.ornament{text-align:center;font-size:23px;letter-spacing:6px;margin:10px 0}.footer{border-top:3px double var(--border);margin-top:20px;padding:13px 0;display:flex;justify-content:space-between;gap:10px;font:11px 'Special Elite','Courier New',monospace}.holes{display:flex;justify-content:space-around;padding:22px 8% 14px;border-top:1px solid #65463755}.hole{width:27px;height:27px;border-radius:50%;background:#e1d1b5;box-shadow:inset 3px 4px 6px #36261b99,0 0 0 3px #5a382b3a,1px 1px #fff5dc66}@media(max-width:850px){.layout{grid-template-columns:150px minmax(0,1fr)}.right{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:12px}.right .panel{margin-bottom:0}}@media(max-width:560px){.mast{padding:13px}.brand{font-size:32px}.serial{font-size:9px}.sub{font-size:9px}.tabs-shell{padding:10px 4px 0}.tabs{gap:1px}.tabs button{font-size:8px;letter-spacing:-.5px;padding:12px 1px 10px}.tabs button[aria-selected=true]{padding-top:19px;padding-bottom:13px}.sheet{padding:14px 13px 25px 25px}.layout{grid-template-columns:1fr}.left{display:grid;grid-template-columns:1fr 1fr;gap:10px}.left .panel{margin:0}.left .panel:nth-child(3){grid-column:1/-1}.content-grid{grid-template-columns:1fr}.right{grid-template-columns:1fr 1fr}.hero{padding:17px}.hero h1{font-size:45px}.paper-top{font-size:9px}.panel-title{font-size:18px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
-</style></head><body><div class="archive" id="archive"><header class="mast"><div><div class="brand">the osob files.</div><div class="sub">a personal internet scrapbook & paper archive</div></div><div class="serial">EST. 2026<br>VOL. I · OPEN FILE</div></header><nav class="tabs-shell" aria-label="Archive tabs"><div class="tabs" id="tabs"></div></nav><main class="sheet"><div class="paper-inner"><div class="paper-top"><span id="record">PERSONAL RECORDS / 01</span><span>✣ ✣ ✣ &nbsp; HAND-FILED & HAND-KEPT</span><span id="file">FILE NO. 001</span></div><div class="layout"><aside class="left"><section class="panel"><h2 class="panel-title">directory</h2><div class="menu" id="directory"></div></section><section class="panel"><h2 class="panel-title">little things</h2><div class="tiny">✿ an archive of everything<br>✿ always under construction<br>✿ best viewed with curiosity</div></section><section class="panel"><div class="ornament">✧ ✧ ✧</div><div class="micro" style="text-align:center">YOU ARE VISITOR<br>NO. 000001</div></section></aside><div class="center"><article class="hero"><div class="kicker" id="kicker"></div><h1 id="heading"></h1><p id="description"></p><hr class="section-rule"><span class="sticker">✦ collected & kept ✦</span><div class="micro">LAST FILED: OCTOBER 2026</div></article><div class="content-grid"><section class="panel"><div class="label">✦ ENTRY 01 / JOURNAL</div><h2 class="entry-heading" id="note1Title"></h2><div class="tiny note-lines" id="note1Text"></div></section><section class="panel"><div class="label">✦ ENTRY 02 / CLIPPINGS</div><h2 class="entry-heading" id="note2Title"></h2><div class="tiny note-lines" id="note2Text"></div></section></div></div><aside class="right"><section class="panel"><h2 class="panel-title">notice board</h2><div class="tiny">Welcome to my little corner of the web. These pages are a work in progress, just like me.</div><div class="ornament">❦</div><div class="micro" style="text-align:center">THANK YOU FOR VISITING</div></section><section class="panel"><h2 class="panel-title">recent notes</h2><div class="guest-entry">✎ Currently collecting ideas for this website.</div><div class="guest-entry">✎ More writing, art, and projects coming soon.</div><div class="guest-entry">✎ Please make yourself at home.</div></section></aside></div><footer class="footer"><span>© THE OSOB FILES · MADE WITH CARE</span><span id="foot">— 001 —</span></footer><div class="holes" aria-label="Three binder holes"><span class="hole"></span><span class="hole"></span><span class="hole"></span></div></div></main></div><script>
-const sections=[
-{tab:'ABOUT ME',color:'#d9826d',heading:'A little about me.',kicker:'Dear reader,',description:'Welcome to my little corner of the internet. A growing collection of stories, photographs, observations, and all the odds and ends that make me who I am.',a:['An introduction','This is where my personal stories and photographs will live.'],b:['Things worth keeping','A collection of the people, places, and ideas that shape my world.']},
-{tab:'ART',color:'#d8b45e',heading:'The art of making.',kicker:'Drawn, collected, and unfinished',description:'A place for the things I make: sketches, design experiments, photographs, visual notes, and ideas that have yet to become something.',a:['The sketchbook','A home for artwork and creative experiments.'],b:['Works in progress','Not everything worth sharing has to be finished.']},
-{tab:'SCHOOL',color:'#89ab99',heading:'Notes from school.',kicker:'Filed under: learning',description:'My academic journey in computer science, from coursework and research to small discoveries made along the way.',a:['Course notes','Selected coursework, lessons, and class projects.'],b:['Research & projects','An index of questions I have tried to answer.']},
-{tab:'CAREER',color:'#84a8bc',heading:'Work & experience.',kicker:'The professional record',description:'My résumé, experience, technical projects, and the work I hope to keep doing. Part history, part work in progress.',a:['The résumé','Education, experience, skills, and accomplishments.'],b:['Selected work','Projects and professional work I would like to share.']},
-{tab:'CURRENTLY',color:'#b49baa',heading:'As of lately...',kicker:'In the present tense',description:'A running collection of what I am reading, watching, listening to, learning, and thinking about right now.',a:['On my mind','Thoughts, passing fascinations, and little observations.'],b:['Recently discovered','A shelf of recommendations and curiosities.']},
-{tab:'HOBBIES',color:'#c79a6d',heading:'Odds & ends.',kicker:'Outside the margins',description:'Hobbies, little adventures, collections, and everything I enjoy for no reason other than the joy of it.',a:['Spare-time pursuits','The things I enjoy doing just for fun.'],b:['Little adventures','Places visited, memories collected, and stories to tell.']}
-];const archive=document.getElementById('archive'),tabs=document.getElementById('tabs'),directory=document.getElementById('directory');sections.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.textContent=s.tab;b.style.setProperty('--c',s.color);b.addEventListener('click',()=>show(i));tabs.appendChild(b);const d=document.createElement('button');d.type='button';d.className='mini-button';d.textContent=s.tab.toLowerCase();d.addEventListener('click',()=>show(i));directory.appendChild(d)});function put(id,v){document.getElementById(id).textContent=v}function show(i){const s=sections[i];archive.style.setProperty('--paper',s.color);[...tabs.children].forEach((b,j)=>b.setAttribute('aria-selected',String(i===j)));[...directory.children].forEach((b,j)=>b.setAttribute('aria-current',i===j?'page':'false'));const n=String(i+1).padStart(3,'0');put('record','PERSONAL RECORDS / '+String(i+1).padStart(2,'0'));put('file','FILE NO. '+n);put('kicker',s.kicker);put('heading',s.heading);put('description',s.description);put('note1Title',s.a[0]);put('note1Text',s.a[1]);put('note2Title',s.b[0]);put('note2Text',s.b[1]);put('foot','— '+n+' —');document.title=s.tab+' — The Osob Files'}show(0);
-</script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Osob Files — Personal Archive</title>
+
+  <!-- ============================= -->
+  <!-- FONTS AND WEBSITE DESIGN      -->
+  <!-- ============================= -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Special+Elite&display=swap');
+
+    /* COLORS — Change these to customize your website */
+    :root {
+      --paper: #d9826d;
+      --ink: #342a26;
+      --border: #695247;
+      --cream: #f2e4c8;
+      --shadow: #65463733;
+    }
+
+    /* GENERAL SETTINGS */
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    /* MAIN BINDER BACKGROUND */
+    .archive {
+      min-height: 100vh;
+      position: relative;
+      isolation: isolate;
+      background:
+        radial-gradient(ellipse at 20% 15%, #ffffff38, transparent 60%),
+        radial-gradient(ellipse at 90% 85%, #40271624, transparent 55%),
+        var(--paper);
+    }
+
+    /* AGED PAPER TEXTURE */
+    .archive::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9;
+      opacity: 0.15;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+      mix-blend-mode: multiply;
+    }
+
+    /* TOP HEADER */
+    .mast {
+      background:
+        repeating-linear-gradient(
+          90deg,
+          #6c514b18 0 1px,
+          transparent 1px 28px
+        ),
+        linear-gradient(#efe5d2, #d9c7aa);
+
+      border-bottom: 4px double #695247;
+      padding: 16px clamp(18px, 3vw, 52px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font: clamp(29px, 4vw, 54px)/1 'IM Fell English', Georgia, serif;
+      text-shadow: 2px 2px #fff8e655;
+    }
+
+    .sub,
+    .serial,
+    .micro,
+    .tabs button,
+    .mini-button,
+    .label {
+      font-family: 'Special Elite', 'Courier New', monospace;
+    }
+
+    .sub {
+      font-size: 11px;
+      margin-top: 6px;
+    }
+
+    .serial {
+      font-size: 11px;
+      text-align: right;
+      line-height: 1.7;
+    }
+
+    /* ============================= */
+    /* COLORED BINDER TABS           */
+    /* ============================= */
+
+    .tabs-shell {
+      background: #d9c7aa;
+      padding: 12px clamp(14px, 3vw, 52px) 0;
+    }
+
+    .tabs {
+      display: flex;
+      align-items: flex-end;
+      gap: 3px;
+      max-width: 1500px;
+      margin: auto;
+    }
+
+    .tabs button {
+      min-width: 0;
+      flex: 1;
+      cursor: pointer;
+      border: 1px solid #4b362c77;
+      border-bottom: 0;
+      border-radius: 0;
+
+      background:
+        linear-gradient(
+          115deg,
+          #fff8e32b,
+          transparent 40%,
+          #49302120
+        ),
+        var(--c);
+
+      color: #342821;
+      font-size: clamp(8px, 1vw, 12px);
+      padding: 15px 3px 12px;
+      min-height: 44px;
+      box-shadow: inset 2px 2px #fff7e644;
+      transition: padding 0.15s, filter 0.15s;
+    }
+
+    .tabs button:hover {
+      filter: brightness(1.08);
+    }
+
+    .tabs button[aria-selected="true"] {
+      padding-top: 24px;
+      padding-bottom: 16px;
+      background: var(--paper);
+      position: relative;
+      z-index: 2;
+      font-weight: bold;
+      border-bottom: 0;
+      box-shadow: inset 2px 2px #fff7e655;
+    }
+
+    /* ============================= */
+    /* PAPER AND MAIN LAYOUT         */
+    /* ============================= */
+
+    .sheet {
+      min-height: calc(100vh - 160px);
+      padding: 20px clamp(14px, 4vw, 70px) 30px;
+      position: relative;
+    }
+
+    .sheet::before {
+      content: "";
+      position: absolute;
+      left: clamp(5px, 2vw, 27px);
+      top: 0;
+      bottom: 0;
+      width: 11px;
+      background:
+        linear-gradient(
+          90deg,
+          #38261b20,
+          #fff7e12a,
+          #38261b14
+        );
+      border-right: 1px solid #62463655;
+    }
+
+    .paper-inner {
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+
+    .paper-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      border-bottom: 3px double #594338a8;
+      padding: 5px 0 13px;
+      margin-bottom: 15px;
+      font-size: 11px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns:
+        minmax(145px, 220px)
+        minmax(0, 1fr)
+        minmax(170px, 255px);
+      gap: 14px;
+      align-items: start;
+    }
+
+    /* ============================= */
+    /* 2000s-STYLE BORDERED PANELS   */
+    /* ============================= */
+
+    .panel {
+      border: 3px double var(--border);
+      background:
+        linear-gradient(
+          140deg,
+          #fff9e947,
+          #fff6dd24 60%,
+          #39231b12
+        );
+      padding: 9px;
+      box-shadow: 2px 3px 0 var(--shadow);
+      margin-bottom: 13px;
+    }
+
+    .panel-title {
+      font-family: 'IM Fell English', Georgia, serif;
+      text-align: center;
+      font-size: 21px;
+      line-height: 1.1;
+      margin: 0 0 10px;
+      border-bottom: 1px dashed var(--border);
+      padding: 3px 0 8px;
+    }
+
+    .panel-title::before,
+    .panel-title::after {
+      content: '✣';
+      font-size: 12px;
+      margin: 0 7px;
+    }
+
+    /* LEFT-SIDE DIRECTORY */
+    .menu {
+      display: grid;
+      gap: 2px;
+    }
+
+    .mini-button {
+      background: linear-gradient(#fff9e66e, #6b4e3b15);
+      border: 1px solid var(--border);
+      box-shadow: inset 1px 1px #fff8eb8a;
+      padding: 9px 5px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--ink);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .mini-button:hover {
+      background: #fff5da88;
+    }
+
+    .tiny {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .micro {
+      font-size: 10px;
+      letter-spacing: 0.03em;
+    }
+
+    /* CENTER CONTENT */
+    .center {
+      min-width: 0;
+    }
+
+    .hero {
+      border: 4px double var(--border);
+      padding: clamp(16px, 3vw, 35px);
+      background:
+        linear-gradient(
+          120deg,
+          #fff9e951,
+          #fff4dd16 65%,
+          #3d281015
+        );
+      box-shadow: 3px 4px 0 var(--shadow);
+      margin-bottom: 14px;
+    }
+
+    .kicker {
+      font: italic 19px 'IM Fell English', Georgia, serif;
+    }
+
+    .hero h1 {
+      font: normal clamp(36px, 5vw, 72px)/1 'IM Fell English', Georgia, serif;
+      margin: 12px 0 15px;
+      text-shadow: 1px 1px #fff6df77;
+    }
+
+    .hero p {
+      font-size: clamp(15px, 1.6vw, 19px);
+      line-height: 1.55;
+      max-width: 760px;
+    }
+
+    .section-rule {
+      border: 0;
+      border-top: 3px double var(--border);
+      margin: 17px 0;
+    }
+
+    /* JOURNAL AND CLIPPINGS */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+    }
+
+    .content-grid .panel {
+      margin-bottom: 0;
+      min-height: 180px;
+    }
+
+    .entry-heading {
+      font: normal 24px 'IM Fell English', Georgia, serif;
+      margin: 7px 0;
+    }
+
+    .label {
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .sticker {
+      display: inline-block;
+      border: 2px dashed #6b5044;
+      padding: 7px 11px;
+      transform: rotate(-3deg);
+      font: 12px 'Special Elite', 'Courier New', monospace;
+      margin: 6px 0 15px;
+    }
+
+    .note-lines {
+      background:
+        repeating-linear-gradient(
+          transparent 0 25px,
+          #5e473324 26px 27px
+        );
+      line-height: 27px;
+      padding: 1px 4px;
+      min-height: 85px;
+    }
+
+    /* RIGHT-SIDE PANELS */
+    .right .panel {
+      padding: 12px;
+    }
+
+    .guest-entry {
+      border-bottom: 1px dashed #745b4b;
+      padding: 8px 0;
+      font-size: 12px;
+    }
+
+    .guest-entry:last-child {
+      border-bottom: 0;
+    }
+
+    .ornament {
+      text-align: center;
+      font-size: 23px;
+      letter-spacing: 6px;
+      margin: 10px 0;
+    }
+
+    /* ============================= */
+    /* FOOTER AND THREE-HOLE PUNCH   */
+    /* ============================= */
+
+    .footer {
+      border-top: 3px double var(--border);
+      margin-top: 20px;
+      padding: 13px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font: 11px 'Special Elite', 'Courier New', monospace;
+    }
+
+    .holes {
+      display: flex;
+      justify-content: space-around;
+      padding: 22px 8% 14px;
+      border-top: 1px solid #65463755;
+    }
+
+    .hole {
+      width: 27px;
+      height: 27px;
+      border-radius: 50%;
+      background: #e1d1b5;
+      box-shadow:
+        inset 3px 4px 6px #36261b99,
+        0 0 0 3px #5a382b3a,
+        1px 1px #fff5dc66;
+    }
+
+    /* ============================= */
+    /* TABLET AND MOBILE LAYOUTS     */
+    /* ============================= */
+
+    @media (max-width: 850px) {
+      .layout {
+        grid-template-columns: 150px minmax(0, 1fr);
+      }
+
+      .right {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .right .panel {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .mast {
+        padding: 13px;
+      }
+
+      .brand {
+        font-size: 32px;
+      }
+
+      .serial,
+      .sub {
+        font-size: 9px;
+      }
+
+      .tabs-shell {
+        padding: 10px 4px 0;
+      }
+
+      .tabs {
+        gap: 1px;
+      }
+
+      .tabs button {
+        font-size: 8px;
+        letter-spacing: -0.5px;
+        padding: 12px 1px 10px;
+      }
+
+      .tabs button[aria-selected="true"] {
+        padding-top: 19px;
+        padding-bottom: 13px;
+      }
+
+      .sheet {
+        padding: 14px 13px 25px 25px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .left .panel {
+        margin: 0;
+      }
+
+      .left .panel:nth-child(3) {
+        grid-column: 1 / -1;
+      }
+
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .right {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero {
+        padding: 17px;
+      }
+
+      .hero h1 {
+        font-size: 45px;
+      }
+
+      .paper-top {
+        font-size: 9px;
+      }
+
+      .panel-title {
+        font-size: 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================= -->
+  <!-- MAIN WEBSITE                  -->
+  <!-- ============================= -->
+
+  <div class="archive" id="archive">
+
+    <!-- WEBSITE HEADER -->
+    <header class="mast">
+      <div>
+        <div class="brand">the osob files.</div>
+        <div class="sub">
+          a personal internet scrapbook &amp; paper archive
+        </div>
+      </div>
+
+      <div class="serial">
+        EST. 2026<br>
+        VOL. I · OPEN FILE
+      </div>
+    </header>
+
+    <!-- SIX COLORED TABS -->
+    <nav class="tabs-shell" aria-label="Archive tabs">
+      <div class="tabs" id="tabs"></div>
+    </nav>
+
+    <!-- MAIN PAPER PAGE -->
+    <main class="sheet">
+      <div class="paper-inner">
+
+        <div class="paper-top">
+          <span id="record">PERSONAL RECORDS / 01</span>
+          <span>✣ ✣ ✣ &nbsp; HAND-FILED &amp; HAND-KEPT</span>
+          <span id="file">FILE NO. 001</span>
+        </div>
+
+        <div class="layout">
+
+          <!-- LEFT SIDEBAR -->
+          <aside class="left">
+
+            <section class="panel">
+              <h2 class="panel-title">directory</h2>
+              <div class="menu" id="directory"></div>
+            </section>
+
+            <section class="panel">
+              <h2 class="panel-title">little things</h2>
+              <div class="tiny">
+                ✿ an archive of everything<br>
+                ✿ always under construction<br>
+                ✿ best viewed with curiosity
+              </div>
+            </section>
+
+            <section class="panel">
+              <div class="ornament">✧ ✧ ✧</div>
+              <div class="micro" style="text-align: center;">
+                YOU ARE VISITOR<br>
+                NO. 000001
+              </div>
+            </section>
+
+          </aside>
+
+          <!-- CENTER OF THE PAGE -->
+          <div class="center">
+
+            <article class="hero">
+              <div class="kicker" id="kicker"></div>
+
+              <h1 id="heading"></h1>
+
+              <p id="description"></p>
+
+              <hr class="section-rule">
+
+              <span class="sticker">
+                ✦ collected &amp; kept ✦
+              </span>
+
+              <div class="micro">
+                LAST FILED: OCTOBER 2026
+              </div>
+            </article>
+
+            <!-- TWO CONTENT BOXES -->
+            <div class="content-grid">
+
+              <section class="panel">
+                <div class="label">✦ ENTRY 01 / JOURNAL</div>
+                <h2 class="entry-heading" id="note1Title"></h2>
+                <div class="tiny note-lines" id="note1Text"></div>
+              </section>
+
+              <section class="panel">
+                <div class="label">✦ ENTRY 02 / CLIPPINGS</div>
+                <h2 class="entry-heading" id="note2Title"></h2>
+                <div class="tiny note-lines" id="note2Text"></div>
+              </section>
+
+            </div>
+          </div>
+
+          <!-- RIGHT SIDEBAR -->
+          <aside class="right">
+
+            <section class="panel">
+              <h2 class="panel-title">notice board</h2>
+
+              <div class="tiny">
+                Welcome to my little corner of the web.
+                These pages are a work in progress, just like me.
+              </div>
+
+              <div class="ornament">❦</div>
+
+              <div class="micro" style="text-align: center;">
+                THANK YOU FOR VISITING
+              </div>
+            </section>
+
+            <section class="panel">
+              <h2 class="panel-title">recent notes</h2>
+
+              <div class="guest-entry">
+                ✎ Currently collecting ideas for this website.
+              </div>
+
+              <div class="guest-entry">
+                ✎ More writing, art, and projects coming soon.
+              </div>
+
+              <div class="guest-entry">
+                ✎ Please make yourself at home.
+              </div>
+            </section>
+
+          </aside>
+
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <footer class="footer">
+          <span>© THE OSOB FILES · MADE WITH CARE</span>
+          <span id="foot">— 001 —</span>
+        </footer>
+
+        <!-- THREE BINDER HOLES -->
+        <div class="holes" aria-label="Three binder holes">
+          <span class="hole"></span>
+          <span class="hole"></span>
+          <span class="hole"></span>
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- ============================= -->
+  <!-- JAVASCRIPT: WEBSITE CONTENT   -->
+  <!-- ============================= -->
+
+  <script>
+
+    /*
+      EDIT YOUR SIX TABS HERE.
+
+      tab         = Name shown on the colored tab
+      color       = Background color
+      heading     = Large title on the page
+      kicker      = Small introductory heading
+      description = Main paragraph
+      a           = First content box [title, text]
+      b           = Second content box [title, text]
+    */
+
+    const sections = [
+
+      // TAB 1: ABOUT ME
+      {
+        tab: 'ABOUT ME',
+        color: '#d9826d',
+        heading: 'A little about me.',
+        kicker: 'Dear reader,',
+        description:
+          'Welcome to my little corner of the internet. A growing collection of stories, photographs, observations, and all the odds and ends that make me who I am.',
+        a: [
+          'An introduction',
+          'This is where my personal stories and photographs will live.'
+        ],
+        b: [
+          'Things worth keeping',
+          'A collection of the people, places, and ideas that shape my world.'
+        ]
+      },
+
+      // TAB 2: ART
+      {
+        tab: 'ART',
+        color: '#d8b45e',
+        heading: 'The art of making.',
+        kicker: 'Drawn, collected, and unfinished',
+        description:
+          'A place for the things I make: sketches, design experiments, photographs, visual notes, and ideas that have yet to become something.',
+        a: [
+          'The sketchbook',
+          'A home for artwork and creative experiments.'
+        ],
+        b: [
+          'Works in progress',
+          'Not everything worth sharing has to be finished.'
+        ]
+      },
+
+      // TAB 3: SCHOOL
+      {
+        tab: 'SCHOOL',
+        color: '#89ab99',
+        heading: 'Notes from school.',
+        kicker: 'Filed under: learning',
+        description:
+          'My academic journey in computer science, from coursework and research to small discoveries made along the way.',
+        a: [
+          'Course notes',
+          'Selected coursework, lessons, and class projects.'
+        ],
+        b: [
+          'Research & projects',
+          'An index of questions I have tried to answer.'
+        ]
+      },
+
+      // TAB 4: CAREER
+      {
+        tab: 'CAREER',
+        color: '#84a8bc',
+        heading: 'Work & experience.',
+        kicker: 'The professional record',
+        description:
+          'My résumé, experience, technical projects, and the work I hope to keep doing. Part history, part work in progress.',
+        a: [
+          'The résumé',
+          'Education, experience, skills, and accomplishments.'
+        ],
+        b: [
+          'Selected work',
+          'Projects and professional work I would like to share.'
+        ]
+      },
+
+      // TAB 5: CURRENTLY
+      {
+        tab: 'CURRENTLY',
+        color: '#b49baa',
+        heading: 'As of lately...',
+        kicker: 'In the present tense',
+        description:
+          'A running collection of what I am reading, watching, listening to, learning, and thinking about right now.',
+        a: [
+          'On my mind',
+          'Thoughts, passing fascinations, and little observations.'
+        ],
+        b: [
+          'Recently discovered',
+          'A shelf of recommendations and curiosities.'
+        ]
+      },
+
+      // TAB 6: HOBBIES
+      {
+        tab: 'HOBBIES',
+        color: '#c79a6d',
+        heading: 'Odds & ends.',
+        kicker: 'Outside the margins',
+        description:
+          'Hobbies, little adventures, collections, and everything I enjoy for no reason other than the joy of it.',
+        a: [
+          'Spare-time pursuits',
+          'The things I enjoy doing just for fun.'
+        ],
+        b: [
+          'Little adventures',
+          'Places visited, memories collected, and stories to tell.'
+        ]
+      }
+
+    ];
+
+    /* FIND THE WEBSITE ELEMENTS */
+
+    const archive = document.getElementById('archive');
+    const tabs = document.getElementById('tabs');
+    const directory = document.getElementById('directory');
+
+    /* CREATE THE TOP TABS AND SIDE DIRECTORY */
+
+    sections.forEach((section, index) => {
+
+      const tabButton = document.createElement('button');
+
+      tabButton.type = 'button';
+      tabButton.textContent = section.tab;
+      tabButton.style.setProperty('--c', section.color);
+
+      tabButton.addEventListener('click', () => {
+        showSection(index);
+      });
+
+      tabs.appendChild(tabButton);
+
+      const directoryButton = document.createElement('button');
+
+      directoryButton.type = 'button';
+      directoryButton.className = 'mini-button';
+      directoryButton.textContent = section.tab.toLowerCase();
+
+      directoryButton.addEventListener('click', () => {
+        showSection(index);
+      });
+
+      directory.appendChild(directoryButton);
+
+    });
+
+    /* HELPER: CHANGE TEXT ON THE PAGE */
+
+    function updateText(elementId, newText) {
+      document.getElementById(elementId).textContent = newText;
+    }
+
+    /* SHOW THE SELECTED BINDER TAB */
+
+    function showSection(index) {
+
+      const section = sections[index];
+
+      // Match the paper color to the selected tab.
+      archive.style.setProperty('--paper', section.color);
+
+      // Mark the active top tab.
+      [...tabs.children].forEach((button, buttonIndex) => {
+        button.setAttribute(
+          'aria-selected',
+          String(index === buttonIndex)
+        );
+      });
+
+      // Mark the active directory button.
+      [...directory.children].forEach((button, buttonIndex) => {
+        button.setAttribute(
+          'aria-current',
+          index === buttonIndex ? 'page' : 'false'
+        );
+      });
+
+      // File number: 001, 002, 003...
+      const fileNumber = String(index + 1).padStart(3, '0');
+
+      updateText(
+        'record',
+        'PERSONAL RECORDS / ' + String(index + 1).padStart(2, '0')
+      );
+
+      updateText('file', 'FILE NO. ' + fileNumber);
+
+      // Main page content
+      updateText('kicker', section.kicker);
+      updateText('heading', section.heading);
+      updateText('description', section.description);
+
+      // Journal box
+      updateText('note1Title', section.a[0]);
+      updateText('note1Text', section.a[1]);
+
+      // Clippings box
+      updateText('note2Title', section.b[0]);
+      updateText('note2Text', section.b[1]);
+
+      // Footer and browser title
+      updateText('foot', '— ' + fileNumber + ' —');
+
+      document.title = section.tab + ' — The Osob Files';
+    }
+
+    /* OPEN THE ABOUT ME TAB FIRST */
+
+    showSection(0);
+
+  </script>
+
+</body>
+</html>
