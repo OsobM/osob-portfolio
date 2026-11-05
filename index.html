@@ -1,168 +1,272 @@
+```
+
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <title>
-   The Osob Files — Personal Archive
-  </title>
-  <!-- VISUAL DESIGN: colors, fonts, borders, layout, and responsive styles -->
- <link rel="stylesheet" href="css/style.css">
- </head>
- <body>
-  <div class="archive" id="archive">
-   <header class="mast">
-    <div>
-     <div class="brand">
-      the osob files.
-     </div>
-     <div class="sub">
-      a personal internet scrapbook &amp; paper archive
-     </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Osob Files — Personal Archive</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="archive" id="archive">
+
+        <!-- WEBSITE HEADER -->
+        <header class="mast">
+
+            <div>
+                <div class="brand">the osob files.</div>
+
+                <div class="sub">
+                    a personal internet scrapbook &amp; paper archive
+                </div>
+            </div>
+
+            <div class="serial">
+                EST. 2026<br>
+                VOL. I · OPEN FILE
+            </div>
+
+        </header>
+
+
+        <!-- SIX COLORED BINDER TABS -->
+        <nav class="tabs-shell" aria-label="Archive tabs">
+            <div class="tabs" id="tabs"></div>
+        </nav>
+
+
+        <!-- MAIN BINDER PAGE -->
+        <main class="sheet">
+
+            <div class="paper-inner">
+
+                <!-- FILE INFORMATION -->
+                <div class="paper-top">
+
+                    <span id="record">
+                        PERSONAL RECORDS / 01
+                    </span>
+
+                    <span>
+                        ✣ ✣ ✣ &nbsp; HAND-FILED &amp; HAND-KEPT
+                    </span>
+
+                    <span id="file">
+                        FILE NO. 001
+                    </span>
+
+                </div>
+
+
+                <!-- THREE-COLUMN WEBSITE LAYOUT -->
+                <div class="layout">
+
+
+                    <!-- LEFT SIDEBAR -->
+                    <aside class="left">
+
+                        <!-- DIRECTORY -->
+                        <section class="panel">
+
+                            <h2 class="panel-title">
+                                directory
+                            </h2>
+
+                            <div class="menu" id="directory"></div>
+
+                        </section>
+
+
+                        <!-- LITTLE THINGS -->
+                        <section class="panel">
+
+                            <h2 class="panel-title">
+                                little things
+                            </h2>
+
+                            <div class="tiny">
+                                ✿ an archive of everything<br>
+                                ✿ always under construction<br>
+                                ✿ best viewed with curiosity
+                            </div>
+
+                        </section>
+
+
+                        <!-- VISITOR COUNT -->
+                        <section class="panel">
+
+                            <div class="ornament">
+                                ✧ ✧ ✧
+                            </div>
+
+                            <div class="micro" style="text-align: center;">
+                                YOU ARE VISITOR<br>
+                                NO. 000001
+                            </div>
+
+                        </section>
+
+                    </aside>
+
+
+                    <!-- CENTER CONTENT -->
+                    <div class="center">
+
+
+                        <!-- MAIN INTRODUCTION -->
+                        <article class="hero">
+
+                            <div class="kicker" id="kicker"></div>
+
+                            <h1 id="heading"></h1>
+
+                            <p id="description"></p>
+
+                            <hr class="section-rule">
+
+                            <span class="sticker">
+                                ✦ collected &amp; kept ✦
+                            </span>
+
+                            <div class="micro">
+                                LAST FILED: OCTOBER 2026
+                            </div>
+
+                        </article>
+
+
+                        <!-- JOURNAL AND CLIPPINGS -->
+                        <div class="content-grid">
+
+
+                            <!-- JOURNAL -->
+                            <section class="panel">
+
+                                <div class="label">
+                                    ✦ ENTRY 01 / JOURNAL
+                                </div>
+
+                                <h2 class="entry-heading" id="note1Title"></h2>
+
+                                <div class="tiny note-lines" id="note1Text"></div>
+
+                            </section>
+
+
+                            <!-- CLIPPINGS -->
+                            <section class="panel">
+
+                                <div class="label">
+                                    ✦ ENTRY 02 / CLIPPINGS
+                                </div>
+
+                                <h2 class="entry-heading" id="note2Title"></h2>
+
+                                <div class="tiny note-lines" id="note2Text"></div>
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- RIGHT SIDEBAR -->
+                    <aside class="right">
+
+
+                        <!-- NOTICE BOARD -->
+                        <section class="panel">
+
+                            <h2 class="panel-title">
+                                notice board
+                            </h2>
+
+                            <div class="tiny">
+                                Welcome to my little corner of the web.
+                                These pages are a work in progress,
+                                just like me.
+                            </div>
+
+                            <div class="ornament">
+                                ❦
+                            </div>
+
+                            <div class="micro" style="text-align: center;">
+                                THANK YOU FOR VISITING
+                            </div>
+
+                        </section>
+
+
+                        <!-- RECENT NOTES -->
+                        <section class="panel">
+
+                            <h2 class="panel-title">
+                                recent notes
+                            </h2>
+
+                            <div class="guest-entry">
+                                ✎ Currently collecting ideas for this website.
+                            </div>
+
+                            <div class="guest-entry">
+                                ✎ More writing, art, and projects coming soon.
+                            </div>
+
+                            <div class="guest-entry">
+                                ✎ Please make yourself at home.
+                            </div>
+
+                        </section>
+
+                    </aside>
+
+                </div>
+
+
+                <!-- WEBSITE FOOTER -->
+                <footer class="footer">
+
+                    <span>
+                        © THE OSOB FILES · MADE WITH CARE
+                    </span>
+
+                    <span id="foot">
+                        — 001 —
+                    </span>
+
+                </footer>
+
+
+                <!-- THREE BINDER HOLES -->
+                <div class="holes" aria-label="Three binder holes">
+
+                    <span class="hole"></span>
+                    <span class="hole"></span>
+                    <span class="hole"></span>
+
+                </div>
+
+            </div>
+
+        </main>
+
     </div>
-    <div class="serial">
-     EST. 2026
-     <br/>
-     VOL. I · OPEN FILE
-    </div>
-   </header>
-   <nav aria-label="Archive tabs" class="tabs-shell">
-    <div class="tabs" id="tabs">
-    </div>
-   </nav>
-   <main class="sheet">
-    <div class="paper-inner">
-     <div class="paper-top">
-      <span id="record">
-       PERSONAL RECORDS / 01
-      </span>
-      <span>
-       ✣ ✣ ✣   HAND-FILED &amp; HAND-KEPT
-      </span>
-      <span id="file">
-       FILE NO. 001
-      </span>
-     </div>
-     <div class="layout">
-      <aside class="left">
-       <section class="panel">
-        <h2 class="panel-title">
-         directory
-        </h2>
-        <div class="menu" id="directory">
-        </div>
-       </section>
-       <section class="panel">
-        <h2 class="panel-title">
-         little things
-        </h2>
-        <div class="tiny">
-         ✿ an archive of everything
-         <br/>
-         ✿ always under construction
-         <br/>
-         ✿ best viewed with curiosity
-        </div>
-       </section>
-       <section class="panel">
-        <div class="ornament">
-         ✧ ✧ ✧
-        </div>
-        <div class="micro" style="text-align:center">
-         YOU ARE VISITOR
-         <br/>
-         NO. 000001
-        </div>
-       </section>
-      </aside>
-      <div class="center">
-       <article class="hero">
-        <div class="kicker" id="kicker">
-        </div>
-        <h1 id="heading">
-        </h1>
-        <p id="description">
-        </p>
-        <hr class="section-rule"/>
-        <span class="sticker">
-         ✦ collected &amp; kept ✦
-        </span>
-        <div class="micro">
-         LAST FILED: OCTOBER 2026
-        </div>
-       </article>
-       <div class="content-grid">
-        <section class="panel">
-         <div class="label">
-          ✦ ENTRY 01 / JOURNAL
-         </div>
-         <h2 class="entry-heading" id="note1Title">
-         </h2>
-         <div class="tiny note-lines" id="note1Text">
-         </div>
-        </section>
-        <section class="panel">
-         <div class="label">
-          ✦ ENTRY 02 / CLIPPINGS
-         </div>
-         <h2 class="entry-heading" id="note2Title">
-         </h2>
-         <div class="tiny note-lines" id="note2Text">
-         </div>
-        </section>
-       </div>
-      </div>
-      <aside class="right">
-       <section class="panel">
-        <h2 class="panel-title">
-         notice board
-        </h2>
-        <div class="tiny">
-         Welcome to my little corner of the web. These pages are a work in progress, just like me.
-        </div>
-        <div class="ornament">
-         ❦
-        </div>
-        <div class="micro" style="text-align:center">
-         THANK YOU FOR VISITING
-        </div>
-       </section>
-       <section class="panel">
-        <h2 class="panel-title">
-         recent notes
-        </h2>
-        <div class="guest-entry">
-         ✎ Currently collecting ideas for this website.
-        </div>
-        <div class="guest-entry">
-         ✎ More writing, art, and projects coming soon.
-        </div>
-        <div class="guest-entry">
-         ✎ Please make yourself at home.
-        </div>
-       </section>
-      </aside>
-     </div>
-     <footer class="footer">
-      <span>
-       © THE OSOB FILES · MADE WITH CARE
-      </span>
-      <span id="foot">
-       — 001 —
-      </span>
-     </footer>
-     <div aria-label="Three binder holes" class="holes">
-      <span class="hole">
-      </span>
-      <span class="hole">
-      </span>
-      <span class="hole">
-      </span>
-     </div>
-    </div>
-   </main>
-  </div>
-  <!-- WEBSITE BEHAVIOR: tab content and click navigation -->
- <script src="js/script.js"></script>
- </body>
+
+
+    <!-- JAVASCRIPT CONNECTION -->
+    <script src="js/script.js"></script>
+
+</body>
+
 </html>
+
+```
